@@ -34,8 +34,8 @@ jobs:
             sudo ufw --force enable 
             cd /home/ubuntu
             sudo rm -rf memories-server
-            git clone https://github.com/eniolastyle/memories-server.git
-            cd memories-server
+            git clone https://github.com/Eunice2000/memoryapp-server.git
+            cd memoryapp-server
             npm install
             sudo rm /etc/nginx/sites-available/default
             sudo cp default /etc/nginx/sites-available/ -r
