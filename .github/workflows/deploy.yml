@@ -44,3 +44,4 @@ jobs:
             sudo systemctl kill nginx || true
             sudo systemctl restart nginx
             
+            
